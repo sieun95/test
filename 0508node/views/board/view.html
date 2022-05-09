@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>글보기 페이지</h1>
+    <ul>
+        <li>
+            <label>{{items.idx}}</label>
+            
+        </li>
+        <li>
+            <label>{{items.subject}}</label>
+        </li>
+        <li>
+            <label>{{items.name}}</label>
+        </li>
+        <li>
+            <label>{{items.date}}</label>
+        </li>
+        <li>
+            <label>{{items.content}}</label>
+        </li>
+    </ul>
+    <a href="/board/delete?idx={{items.idx}}">글 삭제</a>
+    <a href="/board/list">글목록 가기</a>
+    <a href="/board/update?idx={{items.idx}}">글 수정</a>
+</body>
+</html>
