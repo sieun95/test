@@ -20,7 +20,6 @@ const view = async (req, res) => {
     catch(e) {
         console.error(e)
     }
-
 }
 
 const write = async (req, res) => {
@@ -48,7 +47,6 @@ const writeAction = async (req, res) => {
    catch(e) {
        console.error(e)
    }
-    
 }
 
 const updateAction = async (req, res) => {
